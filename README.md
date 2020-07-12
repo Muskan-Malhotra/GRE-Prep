@@ -1,7 +1,6 @@
 # FlashCards
 
-
-Software team project with a goal to develop a multiplatform (i.e. web & android & iOS) flashcards learning app.
+The aim of the project is to remove create a multiplatform (web, ios, android) one stop destination for students preparing for exams like GRE, TOEFL, etc. The app will consist of flashcards with mnemonic techniques and timed tests from the best resources.
 
 ## Contributing
 
