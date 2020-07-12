@@ -1,0 +1,23 @@
+name: flashcards_angular
+version: 0.0.1
+description: AngularDart view of flashcards.
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+dependencies:
+  angular: '^5.1.0'
+  angular_router: '^2.0.0-alpha+20'
+  markdown: '^2.0.2'
+  meta: '^1.1.6'
+  firebase: '^5.0.2'
+  flashcards_common:
+    path: ../common
+
+dev_dependencies:
+  sass_builder: '^2.1.1'
+  angular_test: '^2.0.0'
+  build_runner: '^ 1.1.2'
+  build_test: '^0.10.3'
+  build_web_compilers: '^0.4.4+2'
+  test: '^1.3.0'

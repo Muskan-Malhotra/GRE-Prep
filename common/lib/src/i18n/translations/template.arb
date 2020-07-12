@@ -1,0 +1,443 @@
+{
+  "@@last_modified": "2018-11-05T19:58:55.095066",
+  "signInButton": "_signInButton",
+  "@signInButton": {
+    "description": "Sign in button.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "sectionsTab": "_sections",
+  "@sectionsTab": {
+    "description": "Sections tab in course screen",
+    "type": "text",
+    "placeholders": {}
+  },
+  "descriptionTab": "_description",
+  "@descriptionTab": {
+    "description": "Description tab in course screen",
+    "type": "text",
+    "placeholders": {}
+  },
+  "homeNavigationButton": "_homeNavigationButton",
+  "@homeNavigationButton": {
+    "description": "Home button in navigation.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "searchNavigationButton": "_searchNavigationButton",
+  "@searchNavigationButton": {
+    "description": "Search button in navigation.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "aboutNavigationButton": "_aboutNavigationButton",
+  "@aboutNavigationButton": {
+    "description": "About button in navigation.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "settingsNavigationButton": "_settingsNavigationButton",
+  "@settingsNavigationButton": {
+    "description": "Settings button in navigation.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "reportBugNavigationButton": "_reportBugNavigationButton",
+  "@reportBugNavigationButton": {
+    "description": "Report button in navigation.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "signOutNavigationButton": "_signOutNavigationButton",
+  "@signOutNavigationButton": {
+    "description": "Sign out button in navigation.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "aboutText": "Version\r\n__{version}__\r\n\r\nOpen source project with a goal to develop a multiplatform (i.e. web, android, iOS) flashcards learning app. You can check our code on [GitHub](https://github.com/tenhobi/flashcards).\r\n\r\nThe project started as a part of a software team project at the [Faculty of Information Technology, CTU in Prague](https://fit.cvut.cz/en).",
+  "@aboutText": {
+    "description": "Text about this application in markdown.",
+    "type": "text",
+    "placeholders": {
+      "version": {}
+    }
+  },
+  "aboutLicensesText": "Application is being developed using open source software: [licences]()",
+  "@aboutLicensesText": {
+    "description": "Text about licences with an empty link as a button in markdown.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "score": "score: {score}",
+  "@score": {
+    "description": "Score caption.",
+    "type": "text",
+    "placeholders": {
+      "score": {}
+    }
+  },
+  "appName": "Flashcards",
+  "@appName": {
+    "description": "Name of the application.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "noVersion": "No version found",
+  "@noVersion": {
+    "description": "Version of the application has not been found.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "allCourses": "all",
+  "@allCourses": {
+    "description": "Tab description of all courses.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "createdCourses": "created",
+  "@createdCourses": {
+    "description": "Tab description of created courses.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "popularCourses": "popular",
+  "@popularCourses": {
+    "description": "Tab description of popular courses.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newCourseName": "Name",
+  "@newCourseName": {
+    "description": "Label of input for name.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newCourseNameEmpty": "Name cannot be empty.",
+  "@newCourseNameEmpty": {
+    "description": "Error label of input for name about empty name.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newCourseDescription": "Description",
+  "@newCourseDescription": {
+    "description": "Label of input for description.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newCourseDescriptionEmpty": "Description cannot be empty.",
+  "@newCourseDescriptionEmpty": {
+    "description": "Error label of input for description about empty content.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "reportUrl": "https://github.com/tenhobi/flashcards/issues/new",
+  "@reportUrl": {
+    "description": "Url of report bug page.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newCourse": "New course",
+  "@newCourse": {
+    "description": "Name of new course screen.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "commentsTab": "_comments",
+  "@commentsTab": {
+    "description": "Comments tab in course screen.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "removeCourseDialog": "_removeCourseDialog",
+  "@removeCourseDialog": {
+    "description": "Description of dialog for removing a course.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "no": "_no",
+  "@no": {
+    "description": "No answer.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "yes": "_yes",
+  "@yes": {
+    "description": "Yes answer.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "remove": "_remove",
+  "@remove": {
+    "description": "Remove description.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "like": "_like",
+  "@like": {
+    "description": "Like description.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "unlike": "_unlike",
+  "@unlike": {
+    "description": "Unlike description.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "addComment": "_add comment",
+  "@addComment": {
+    "description": "Add comment description.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "cannotBeEmpty": "_cannot be empty",
+  "@cannotBeEmpty": {
+    "description": "Cannot be empty warning.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newSection": "_new section",
+  "@newSection": {
+    "description": "New section",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newSectionName": "_name",
+  "@newSectionName": {
+    "description": "Label of input for name.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newSectionNameEmpty": "_name cannot be empty.",
+  "@newSectionNameEmpty": {
+    "description": "Error label of input for name about empty name.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newSectionOrder": "_newSectionOrder",
+  "@newSectionOrder": {
+    "description": "Label of input for order.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newSectionOrderEmpty": "_newSectionOrderEmpty",
+  "@newSectionOrderEmpty": {
+    "description": "Error label of input for order about empty order.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "editSectionLabel": "_editting {sectionName}",
+  "@editSectionLabel": {
+    "description": "Screen name for section editting.",
+    "type": "text",
+    "placeholders": {
+      "sectionName": {}
+    }
+  },
+  "addExercise": "_addExercise",
+  "@addExercise": {
+    "description": "Text shown within subsection list",
+    "type": "text",
+    "placeholders": {}
+  },
+  "addExerciseLabel": "_newExercise",
+  "@addExerciseLabel": {
+    "description": "Screen name for exercise subsection making.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "addMaterial": "_addMaterial",
+  "@addMaterial": {
+    "description": "Text shown within subsection list",
+    "type": "text",
+    "placeholders": {}
+  },
+  "addMaterialLabel": "_newMaterial",
+  "@addMaterialLabel": {
+    "description": "Screen name for material subsection making.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "removeExerciseDialog": "_removeExerciseDialog",
+  "@removeExerciseDialog": {
+    "description": "Description of dialog for removing a exercise.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "removeMaterialDialog": "_removeMaterialDialog",
+  "@removeMaterialDialog": {
+    "description": "Description of dialog for removing a material.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "removeSectionDialog": "_removeSectionDialog",
+  "@removeSectionDialog": {
+    "description": "Description of dialog for removing a section.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "editSubsectionLabel": "_editting {subsectionName}",
+  "@editSubsectionLabel": {
+    "description": "Screen name for subsection editting.",
+    "type": "text",
+    "placeholders": {
+      "subsectionName": {}
+    }
+  },
+  "newSubsectionName": "_newSubsectionName",
+  "@newSubsectionName": {
+    "description": "Label of input for name.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newSubsectionNameEmpty": "_newSubsectionNameEmpty",
+  "@newSubsectionNameEmpty": {
+    "description": "Error label of input for name about empty name.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newSubsectionOrder": "_newSubsectionOrder",
+  "@newSubsectionOrder": {
+    "description": "Label of input for order.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newSubsectionOrderEmpty": "_newSubsectionOrderEmpty",
+  "@newSubsectionOrderEmpty": {
+    "description": "Error label of input for order about empty order.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "typeOfExercise": "_type of exercise",
+  "@typeOfExercise": {
+    "description": "Type of exercise description",
+    "type": "text",
+    "placeholders": {}
+  },
+  "flipcards": "_flipcards",
+  "@flipcards": {
+    "description": "Flip cards exercise type",
+    "type": "text",
+    "placeholders": {}
+  },
+  "multipleChoice": "_multiple choice",
+  "@multipleChoice": {
+    "description": "Multiple choice exercise type",
+    "type": "text",
+    "placeholders": {}
+  },
+  "numberOfQuestions": "_number of questions",
+  "@numberOfQuestions": {
+    "description": "Number of questions description",
+    "type": "text",
+    "placeholders": {}
+  },
+  "wrongInput": "_wrong input",
+  "@wrongInput": {
+    "description": "Wrong input warning",
+    "type": "text",
+    "placeholders": {}
+  },
+  "cancel": "_cancel",
+  "@cancel": {
+    "description": "Cancel answer",
+    "type": "text",
+    "placeholders": {}
+  },
+  "submit": "_submit",
+  "@submit": {
+    "description": "Submit answer",
+    "type": "text",
+    "placeholders": {}
+  },
+  "previous": "_previous",
+  "@previous": {
+    "description": "Previous button",
+    "type": "text",
+    "placeholders": {}
+  },
+  "next": "_next",
+  "@next": {
+    "description": "Next button",
+    "type": "text",
+    "placeholders": {}
+  },
+  "rememberThose": "_rememberthose.",
+  "@rememberThose": {
+    "description": "Remember those flipcards exercise",
+    "type": "text",
+    "placeholders": {}
+  },
+  "bioName": "_bioName",
+  "@bioName": {
+    "description": "Biography form input label.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "bioPlaceholder": "_bioPlaceholder",
+  "@bioPlaceholder": {
+    "description": "Biography form input placeholder.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "bioEmpty": "_bioEmpty",
+  "@bioEmpty": {
+    "description": "Error shown when bio is empty.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newUser": "_newUser",
+  "@newUser": {
+    "description": "Name of new user screen.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "submitDetails": "_submitDetails",
+  "@submitDetails": {
+    "description": "Submit details on new user screen",
+    "type": "text",
+    "placeholders": {}
+  },
+  "linksName": "_linksName",
+  "@linksName": {
+    "description": "Links form input label.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "generalEmpty": "_generalEmpty",
+  "@generalEmpty": {
+    "description": "Empty error message for non specified input",
+    "type": "text",
+    "placeholders": {}
+  },
+  "savedUserData": "_savedUserData",
+  "@savedUserData": {
+    "description": "Shown in snackbar after profile update",
+    "type": "text",
+    "placeholders": {}
+  },
+  "profileScreenTitle": "_profileScreenTitle",
+  "@profileScreenTitle": {
+    "description": "Profile screen title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "nameName": "_nameName",
+  "@nameName": {
+    "description": "Name of name input field.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "nameEmpty": "_nameEmpty",
+  "@nameEmpty": {
+    "description": "Name field cannot be empty error msg.",
+    "type": "text",
+    "placeholders": {}
+  },
+  "newLink": "_newLink",
+  "@newLink": {
+    "description": "Add new link message",
+    "type": "text",
+    "placeholders": {}
+  }
+}
