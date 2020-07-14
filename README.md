@@ -1,4 +1,4 @@
-# FlashCards
+# FlashCards & Tests
 
 The aim of the project is to remove create a multiplatform (web, ios, android) one stop destination for students preparing for exams like GRE, TOEFL, etc. The app will consist of flashcards with mnemonic techniques and timed tests from the best resources.
 
